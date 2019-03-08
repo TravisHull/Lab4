@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Quiz</title>
+    <link href="quiz.css"
+          rel="stylesheet"
+          type-"text/css">
+  </head>
+
+  <body onload="Quiz.reset();">
+    <div class="home-button">
+      <a href="https://people.eecs.ku.edu/~t819h638/Lab3_Repo/index.html">Back Home</a>
+    </div>
+    <div class="quiz-container" style="text-align:justify">
+      <h1>Quiz</h1><br>
+      <form name="Quiz" method="post" action="Quiz.php">
+        What class is a direct prerequisite for EECS 448?<br>
+        <input type="radio" name="question1" value="EECS 168">EECS 168<br>
+        <input type="radio" name="question1" value="EECS 268">EECS 268<br>
+        <input type="radio" name="question1" value="EECS 368">EECS 368<br>
+        <input type="radio" name="question1" value="EECS 388">EECS 388<br><br>
+        This statement is false.<br>
+        <input type="radio" name="question2" value="True">True<br>
+        <input type="radio" name="question2" value="False">False<br><br>
+        How many snow days have we had this Spring?<br>
+        <input type="radio" name="question3" value="1">1<br>
+        <input type="radio" name="question3" value="2">2<br>
+        <input type="radio" name="question3" value="3">3<br>
+        <input type="radio" name="question3" value="4">4<br><br>
+        This is the last question.<br>
+        <input type="radio" name="question4" value="True">True<br>
+        <input type="radio" name="question4" value="False">False<br><br>
+        What grade will I receive for this lab?<br>
+        <input type="radio" name="question5" value="100%">100%<br>
+        <input type="radio" name="question5" value="70%">70%<br>
+        <input type="radio" name="question5" value="50%">50%<br>
+        <input type="radio" name="question5" value="10%">10%<br><br>
+        <input type="submit" value="Grade" name="Result">
+      </form>
+    </div>
+  </body>
+</html>
